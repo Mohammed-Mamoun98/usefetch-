@@ -1,0 +1,16 @@
+input.input-outlined {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e4e6ef;
+  overflow: hidden;
+  &:focus {
+    outline: none;
+    border: 1px solid #46cb9b;
+    transition: border 0.3s;
+    border-radius: 5px;
+    -moz-outline-radius: 21px;
+  }
+  &::placeholder {
+    color: #ddd;
+  }
+}
